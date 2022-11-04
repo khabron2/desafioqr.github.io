@@ -1,42 +1,35 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-html{
+body{
     background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
 }
 
-.contenedor{
-    width: 300px;
-    height: 700px;
-    margin-top: 60px;
-    position: relative;
-    background-color: hsl(0, 0%, 100%);
-    margin: 60px auto;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-end;
-    justify-content: center;
-}
-
-.tiutlo{
-    position: absolute;
+.tarjeta{
+    width: 370px;
     background-color: hsl(0, 0%, 100%);
     margin: auto;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 70px;
 }
 
-.codigo{
-    margin-top: 5px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-.codigo img{
-    width: 90%;
+.tarjeta img {
+    width: 100%;
     border-radius: 15px;
+}
+
+.textos{
+    text-align: center;
+    padding: 20px;
+}
+
+.descripcion{
+    padding-top: 30px;
+    color: hsl(220, 15%, 55%);
 }
